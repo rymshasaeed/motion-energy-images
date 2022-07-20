@@ -85,7 +85,7 @@ for i = 2:n
     imshow(frame(:,:,i))
     hold on
     quiver(Corners(:,1), Corners(:,2), u,v, 1,'r')
-    title('Optical Fow Vectors')  
+    title('Optical Flow Vectors')  
     hold off
     sgtitle(['Frame ',num2str(i)])
 end
